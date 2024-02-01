@@ -1,5 +1,11 @@
-Hi!, this is a basic crud program made in go that makes a simple task list app.
-The library that i used in this code id the gorilla mux (github.com/gorilla/mux)
+# Simple Task List App in Go
 
--> To initialize the code run: go mod init [name of the project, in this case doesnt matter]
--> To install the gorilla mux library run: go get github.com/gorilla/mux
+Este es un programa CRUD básico en Go que implementa una aplicación simple de lista de tareas. Utiliza la biblioteca Gorilla Mux para manejar las rutas y las solicitudes HTTP.
+
+## Inicialización del Proyecto
+
+Antes de ejecutar el programa, asegúrate de inicializar el módulo de Go y de instalar la biblioteca Gorilla Mux. Puedes hacerlo ejecutando los siguientes comandos en tu terminal:
+
+```bash
+go mod init [nombre_del_proyecto]
+go get github.com/gorilla/mux
