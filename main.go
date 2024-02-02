@@ -19,8 +19,8 @@ import (
 // this is the struct of the task
 type task struct {
 	ID      int    `json:ID`
-	name    string `json:name`
-	content string `json:content`
+	Name    string `json:Name`
+	Content string `json:Content`
 }
 
 // this is the array of all the tasks
@@ -30,8 +30,8 @@ type allTasks []task
 var tasks = allTasks{
 	{
 		ID:      1,
-		name:    "Task One",
-		content: "Some Content",
+		Name:    "Task One",
+		Content: "Some Content",
 	},
 }
 
